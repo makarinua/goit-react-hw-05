@@ -1,0 +1,12 @@
+.actorContainer {
+    width: 110px;
+    border: 1px solid white;
+    overflow: hidden;
+    height: 250px;
+    text-align: center;
+}
+
+.photo {
+    width: 100%;
+    margin-bottom: 10px;
+}

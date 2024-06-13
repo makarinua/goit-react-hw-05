@@ -1,0 +1,52 @@
+.filmContainer {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.backBtn {
+    margin-bottom: 15px;
+    width: 90px;
+    height: 20px;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    transition: all 250ms ease-in-out;
+}
+
+.backBtn:hover {
+    scale: 1.003;
+    box-shadow: 2px 2px 20px white;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+}
+
+.linkList {}
+
+.link {
+    font-size: 18px;
+    width: 120px;
+}
+
+.linkTo {
+    width: 120px;
+    display: block;
+    padding: 20px;
+    text-align: left;
+}
+
+.loading {
+    color: rgb(37, 33, 33);
+    font-size: 20px;
+    text-align: center;
+}
